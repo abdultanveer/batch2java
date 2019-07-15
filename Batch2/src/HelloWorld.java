@@ -9,6 +9,9 @@ public class HelloWorld {
 		int tax = gst.calculateTax(1000);
 		int gstTax = gst.CalculateIncomeTax(1000, 500);
 		
+		System.out.println("tax="+ tax);
+		System.out.println("gst="+gstTax);
+		
 	}
 
 }
