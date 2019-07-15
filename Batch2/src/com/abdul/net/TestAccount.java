@@ -33,6 +33,12 @@ public class TestAccount{
  
 //Creating a test class to deposit and withdraw amount  
 	public static void main(String[] args){  
+		
+		int avg = Student4.average(10, 20, 30);
+		//Student4.COLLEGE_NAME;
+		/*Student4 s4 = new Student4(11,"abdul");
+		 int avg = s4.average(10, 20, 30);
+		*/
 		TestAccount a1 = new TestAccount();  
 		a1.insert(832345,"Ankit",1000);  
 		a1.display();  
