@@ -1,5 +1,5 @@
 /**
- * 
+ * This package has examples of thread synchronization
  */
 /**
  * @author Admin

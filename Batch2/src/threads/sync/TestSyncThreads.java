@@ -9,6 +9,15 @@ public class TestSyncThreads {
 		
 		pt1.start();
 		pt2.start();
+		
+		new Thread() {
+			@Override
+			public void run() {
+				// TODO Auto-generated method stub
+				super.run();
+				table.printTable(50);
+			}
+		}.start();
 
 	}
 
